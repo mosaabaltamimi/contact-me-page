@@ -1,0 +1,36 @@
+ 
+body{
+   
+    background-image: url("http://eskipaper.com/images/phone-backgrounds-5.jpg ");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center; 
+    color:white;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+
+input{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    margin-left: 100px;
+    margin-top: -17px;
+    margin-right: 20px;
+    
+}
+@media screen and (max-width: 650px){
+    body{margin-left:10%;}
+
+}
+@media  screen and (min-width:400px){
+body{
+    background-size: cover;
+}
+
+}
+
+
